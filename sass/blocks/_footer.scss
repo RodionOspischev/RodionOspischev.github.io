@@ -1,0 +1,40 @@
+.footer{
+    min-height: 150px;
+    padding: 50px 100px;
+    background-color:darkslategray;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        width: 13%;
+    }
+    &-logo{
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__logo-subtitle{
+        font-size: 10px;
+        font-weight: 400;
+        color: whitesmoke;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    &__navbar{
+        padding-right: 140px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        a{
+        margin-left: 60px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        }
+    }
+}

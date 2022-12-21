@@ -1,0 +1,39 @@
+.review{
+    padding: 70px 0;
+    min-height: 700px;
+    background: url('../img/intro/background.png') center (center/cover) no-repeat;
+    &__wrapper{
+        display: flex;
+        margin-top: 100px;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+    }
+    &-text{
+        padding-top: 15px;
+        margin-left: 61px;
+        &__name{
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+            line-height: 30px;
+            margin-bottom: 6px;
+        }
+        &__info{
+            color: white;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        &__review{
+            text-align: center;
+            font-weight: 400;
+            font-size: 26px;
+            color: white;
+        }
+    }
+}

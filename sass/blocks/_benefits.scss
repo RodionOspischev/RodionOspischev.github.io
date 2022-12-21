@@ -1,0 +1,46 @@
+.benefits{
+    min-height: 700px;
+    padding: 50px 0 50px 0;
+    &__info-wrapper{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info-item{
+        padding: 45px 50px 49px 50px;
+        width: 349px;
+        height: 480px;
+        background: linear-gradient(92.81deg, #189CB9 0.31%, #25B6D7 34.12%, #3EBAC2 67.09%, #2DCDD8 97.26%);
+        border-radius: 30px;
+    }
+    &__info-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+        color: #fff;
+        line-height: 48px;
+        margin-bottom: 18px;
+    }
+    &__info-subtitle{
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: white;
+    }
+    &__line{
+        width: 53px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        margin: 0 auto;
+        margin-bottom: 17px;
+    }
+    &__logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 18px;
+    }
+    &__info-item_2{
+        padding: 33px 50px 49px 50px;
+    }
+}

@@ -1,0 +1,82 @@
+.intro{
+    margin-top: 90px;
+    padding: 110px 0 90px 0;
+    position: relative;
+    min-height: 606px;
+    background: url('../img/intro/background.png') center (center/cover) no-repeat;
+    &__people{
+        position: absolute;
+        left: 820px;
+        top: 0px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        line-height: 48px;
+        margin-bottom: 26px;
+    }
+    &__subtitle{
+        font-weight: 400;
+        font-size: 24px;
+        color: white;
+        margin-bottom: 67px;
+    }
+    &__btn-wrapper{
+        display: flex;
+        margin-bottom: 35px;
+    }
+    &__btn-main1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+    &__btn-main2{
+        display: flex;
+        flex-direction: column;
+    }
+    &__btn-main1test{
+        display: flex;
+        margin-top: 40px;
+        padding-left: 300px;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+    &_test{
+        min-height: 600px;
+    }
+    &__title_test{
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        line-height: 48px;
+        margin-bottom: 26px;
+        &-blue{
+            margin-bottom: 40px;
+            color:#2DCDD9;
+        }
+
+}
+&_news{
+    min-height: 800px;
+    padding: 60px 100px 60px 100px;
+    background-color: #fff;
+    background: none;
+}
+    &__subtitle_test{
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        color: white;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+    }
+    &__btn-wrapper_test{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 35px;
+
+    }
+
+}

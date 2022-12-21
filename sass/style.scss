@@ -1,0 +1,18 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@import 'blocks/head';
+@import 'blocks/btn';
+@import 'blocks/intro';
+@import 'blocks/benefits';
+@import 'blocks/footer';
+@import 'blocks/review';
+@import 'blocks/news';
